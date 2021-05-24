@@ -1,0 +1,175 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.container{
+  max-width: 500px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.loop-one{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.carusel{
+  width:5px;
+  height:5px;
+  list-style: none;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.carusel-one{
+  background-color: rgba(80, 79, 79, 0.651);
+}
+
+.carusel-two{
+  margin-left: 5px;
+}
+
+.loop-ol{
+  display: flex;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+
+.loop-title{
+  margin: 0;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.loop-link{
+  text-decoration: none;
+  color: #fff;
+  background-color: cornflowerblue;
+  padding: 0;
+  margin: 0;
+
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+.visa-div{
+  border-top: 1px solid lightgray;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.mastercard-div{
+  border-top: 1px solid lightgray;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.maestro-div{
+  border-top: 1px solid lightgray;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.loop-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: background-color 0.4s ease;
+  margin-top: auto;
+}
+
+.loop-link::after{
+  display: inline-block;
+  content: "";
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.visa-text{
+  margin-left: 15px;
+}
+
+.visa-card-img{
+  margin-left: 25px;
+}
+
+.mastercard-img{
+  margin-left: 25px;
+}
+
+.mastercard-text{
+  margin-left: 15px;
+}
+
+.maestro-img{
+  margin-left: 25px;
+}
+
+.maestro-text{
+  margin-left: 15px;
+}
+
+.mastercard-div::after{
+  content: "";
+  margin-left: auto;
+  background-image: url("./img/check.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
